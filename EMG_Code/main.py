@@ -8,8 +8,8 @@ import stft
 import tressholding
 
 
-header_path = "D:/Semester 5/4. ASN/ASN Pak Adib/EMG/S01.hea"  
-dat_path = "D:/Semester 5/4. ASN/ASN Pak Adib/EMG/S01.dat"      
+header_path = "S01.hea"  
+dat_path = "S01.dat"      
 fs = 2000
 
 df, gait_cycle, ch10_cycle, ch13_cycle, segment_range = load.process_emg(header_path, dat_path)
